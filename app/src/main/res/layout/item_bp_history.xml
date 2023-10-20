@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape_ffffff_r16"
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/stage_level"
+            android:layout_width="5dp"
+            android:layout_height="16dp"
+            android:background="#29D62E"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/stage_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Hypotension"
+            android:textColor="@color/c_0b0a0f"
+            android:textSize="16sp"
+            android:includeFontPadding="false"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/stage_level"
+            app:layout_constraintStart_toEndOf="@+id/stage_level"
+            app:layout_constraintTop_toTopOf="@+id/stage_level" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_f5f7fa_r16"
+            android:padding="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/stage_title">
+
+            <TextView
+                android:id="@+id/tv_systolic"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="100"
+                android:textColor="@color/c_0866f6"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_diastolic"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="78"
+                android:textColor="@color/c_0866f6"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_pulse"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="20"
+                android:textColor="@color/c_0866f6"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_systolic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Systolic"
+                android:textColor="@color/c_282828"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_systolic"
+                app:layout_constraintStart_toStartOf="@+id/tv_systolic"
+                app:layout_constraintTop_toBottomOf="@+id/tv_systolic" />
+
+            <TextView
+                android:id="@+id/tv_diastolic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diastolic"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_diastolic"
+                app:layout_constraintStart_toStartOf="@+id/tv_diastolic"
+                app:layout_constraintTop_toBottomOf="@+id/tv_diastolic" />
+
+            <TextView
+                android:id="@+id/tv_pulse_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pulse"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_pulse"
+                app:layout_constraintStart_toStartOf="@+id/tv_pulse"
+                app:layout_constraintTop_toBottomOf="@+id/tv_pulse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mmHg"
+                android:textColor="#CBCCCF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_systolic_title"
+                app:layout_constraintStart_toStartOf="@+id/tv_systolic_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_systolic_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mmHg"
+                android:textColor="#CBCCCF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_diastolic_title"
+                app:layout_constraintStart_toStartOf="@+id/tv_diastolic_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_diastolic_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"
+                android:textColor="#CBCCCF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_pulse_title"
+                app:layout_constraintStart_toStartOf="@+id/tv_pulse_title"
+                app:layout_constraintTop_toBottomOf="@+id/tv_pulse_title" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tv_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2023-04-02 12:35"
+            android:textColor="#CBCCCF"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/info_layout"
+            app:layout_constraintTop_toBottomOf="@+id/info_layout" />
+
+        <ImageView
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:src="@mipmap/ic_edit"
+            app:layout_constraintEnd_toEndOf="@+id/info_layout"
+            app:layout_constraintTop_toBottomOf="@+id/info_layout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

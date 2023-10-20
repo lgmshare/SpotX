@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">SpotX</string>
+    <string name="bp">BP-Data</string>
+    <string name="info">Expansion</string>
+    <string name="settings">Us</string>
+
+    <string name="no_data">No information</string>
+    <string name="no_data_tips">To continue with the analysis, please furnish at least a single specific data point.</string>
+    <string name="start_record">Head to the Record</string>
+    <string name="add_record">Add record</string>
+    <string name="history_data">Historical data</string>
+    <string name="insert_record">Insert Record</string>
+    <string name="state">State</string>
+    <string name="state_s">State: %s</string>
+    <string name="state_tips">Seek advice from a medical professional for direction.</string>
+    <string name="ok">Continue</string>
+    <string name="choice_period">Choice Period</string>
+    <string name="selection_blood_pressure_data">Selection Blood Pressure Data</string>
+    <string name="reference_standard">Reference standard</string>
+    <string name="levle_title_1">Hypotension</string>
+    <string name="levle_content_1">SYS&lt;90 or DIA&lt;60</string>
+    <string name="levle_tips_1">Consult a healthcare practitioner for advice on low blood pressure.</string>
+    <string name="levle_title_2">Normal</string>
+    <string name="levle_content_2">SYS 90~119 and DIA 60~79</string>
+    <string name="levle_tips_2">Adopt a healthy lifestyle for sustained blood pressure management.</string>
+    <string name="levle_title_3">Elevated</string>
+    <string name="levle_content_3">SYS 120~129 and DIA  60~79</string>
+    <string name="levle_tips_3">Integrate lifestyle modifications to effectively control high blood pressure.</string>
+    <string name="levle_title_4">Hypertension·Stage 1</string>
+    <string name="levle_content_4">SYS 130~139 or DIA 80~89</string>
+    <string name="levle_tips_4">Achieve effective management through lifestyle modifications and consistent monitoring.</string>
+    <string name="levle_title_5">Hypertension·Stage 2</string>
+    <string name="levle_content_5">SYS 140~180 or DIA 90~120</string>
+    <string name="levle_tips_5">Seek advice from a healthcare specialist for suitable treatment alternatives.</string>
+    <string name="levle_title_6">Hypertension·Stage 3</string>
+    <string name="levle_content_6">SYS>180 or DIA>120</string>
+    <string name="levle_tips_6">Immediate action is necessary to mitigate potential risks.</string>
+
+    <string name="history">History</string>
+    <string name="save">Save</string>
+    <string name="privacy_policy">SpotX Privacy Policy</string>
+    <string name="privacy_policy_title">Privacy Policy for SpotX</string>
+    <string name="privacy_policy_text">
+        IMPORTANT DISCLAIMER:\n
+        This application does not replace the need for professional medical services or software. It is designed to record and track heart rate readings but does not actively monitor heart rate. For precise medical advice and accurate heart rate measurements, it is imperative to consult a qualified healthcare provider. Your health is of utmost importance, and seeking guidance from a professional medical expert is essential.\n\n
+        SpotX, hereinafter referred to as "we," "us," or "our," is committed to safeguarding your privacy. This Privacy Policy outlines our practices regarding the collection, use, and disclosure of personal information when you use the SpotX application ("the App"). By downloading, accessing, or using the App, you consent to the terms and practices described in this policy.\n\n
+        1. Information We Collect:\n
+        We may collect the following types of personal information:\n
+        - Health Data: The App records your blood pressure data, including systolic and diastolic readings, heart rate, and other relevant health information.\n\n
+        2. How We Use Your Information:\n
+        We use the collected information for the following purposes:\n
+        - Health Tracking: We use your health data to record, track, and provide insights into your blood pressure readings and overall health trends.\n
+        - Personalized Health Assessments: We may use your personal information to provide you with personalized blood pressure health ratings and recommendations based on your data.\n\n
+        - Improvement of Services: We may use aggregated and anonymized data for research and development to enhance our services.\n
+        3. Data Security:\n
+        We employ reasonable security measures to protect your data, but it is essential to understand that no method of transmission over the internet or electronic storage is entirely secure. We cannot guarantee the absolute security of your information.\n\n
+        4. Sharing Your Information:\n
+        We do not share your personal health data with third parties without your explicit consent, except as required by law.\n\n
+        5. Your Choices:\n
+        You can choose not to provide us with certain personal information; however, this may limit your ability to use specific features of the App.\n\n
+        6. Changes to This Privacy Policy:\n
+        We may update this Privacy Policy from time to time. Any changes will be posted here, and the "Effective Date" at the beginning of the policy will be revised accordingly. It is your responsibility to review this Privacy Policy periodically for updates.\n\n
+        7. Contact Us:\n
+        If you have questions or concerns about this Privacy Policy or the data we hold about you, please contact us.\n
+        By using the SpotX App, you acknowledge that you have read and understood this Privacy Policy and agree to its terms and conditions. Your privacy is important to us, and we are dedicated to protecting and respecting your personal information. \n
+    </string>
+    <string name="more">View Details</string>
+    <string name="home">Home</string>
+
+    <string name="average">Average</string>
+    <string name="latest_record">Latest Record</string>
+    <string name="hour_24_average">24 Hour Average</string>
+    <string name="hour_72_average">72 Hour Average</string>
+    <string name="one_week_average">one week Average</string>
+    <string name="confirm">OK</string>
+    <string name="details">Details</string>
+    <string name="article_title_1">Understanding Blood Pressure: A Comprehensive Guide</string>
+    <string name="article_content_1">
+        Blood pressure is the force of blood pushing against the walls of your arteries. It\'s a vital component of the circulatory system, transporting oxygen and nutrients to your body\'s tissues and organs.\n\n
+        Blood pressure is typically represented as two numbers: systolic and diastolic. The systolic reading measures arterial pressure during heartbeats, while the diastolic reading gauges pressure when the heart is at rest between beats.\n\n
+        Blood Pressure Categories:\n\n
+        The American Heart Association recognizes five blood pressure ranges:\n\n
+        1. Normal: Blood pressure below 120/80 mm Hg is considered normal. Maintain heart-healthy habits such as a balanced diet and regular exercise.\n\n
+        2. Elevated: Readings consistently between 120-129 systolic and less than 80 mm Hg diastolic indicate elevated blood pressure. Take steps to control it.\n\n
+        3. Stage 1 Hypertension: Blood pressure consistently ranges from 130-139 systolic or 80-89 mm Hg diastolic. Lifestyle changes and possibly medication may be recommended.\n\n
+        4. Stage 2 Hypertension: Blood pressure consistently at 140/90 mm Hg or higher. Doctors typically prescribe a combination of medication and lifestyle changes.\n\n
+        5. Hypertensive Crisis: Seek immediate medical attention if blood pressure readings exceed 180/120 mm Hg.\n\n
+        Monitoring and Control:\n\n
+        The only way to diagnose high blood pressure is through testing. This is quick and painless, and you can discuss self-measured blood pressure monitoring (SMBP) with your healthcare team.\n\n
+        Understanding your blood pressure readings is crucial for managing hypertension and reducing the risk of heart disease and stroke.\n\n
+        Lifestyle Changes:\n\n
+        For those with high blood pressure, several lifestyle changes can help:\n\n
+        - Adopt a healthy eating plan with reduced sodium.\n\n
+        - Engage in regular physical activity.\n\n
+        - Maintain a healthy weight.\n\n
+        - Quit smoking.\n\n
+        - Limit alcohol consumption.\n\n
+        Medical Intervention:\n\n
+        In addition to lifestyle changes, your doctor may prescribe medication. It\'s vital to take medication as directed and follow up regularly with your healthcare provider to monitor and adjust your treatment plan.\n\n
+        Conclusion:\n\n
+        Understanding and managing your blood pressure is vital for preventing heart disease and stroke. By making lifestyle changes and adhering to your treatment plan, you can lower your blood pressure and enhance your overall health.\n\n
+    </string>
+    <string name="article_title_2">7 Lifestyle Changes to Lower Your Blood Pressure Naturally</string>
+    <string name="article_content_2">
+        High blood pressure, also known as hypertension, is a common condition that can significantly increase the risk of heart disease, stroke, kidney failure, and other severe health issues.\n\n
+        While medication can be effective in controlling high blood pressure, adopting lifestyle changes can also play a vital role in naturally lowering blood pressure. Here are seven lifestyle changes you can implement to help reduce your blood pressure:\n\n
+        1. Eat a Balanced Diet: Opt for a well-balanced diet that reduces sodium intake and increases potassium. Include a variety of fruits, vegetables, whole grains, lean proteins, and low-fat dairy products in your meals.\n\n
+        2. Limit Alcohol: Excessive alcohol consumption can raise blood pressure. It\'s crucial to limit your alcohol intake. Men should have no more than two drinks per day, while women should stick to one drink per day.\n\n
+        3. Engage in Regular Physical Activity: Regular exercise strengthens the heart and improves blood flow, helping to lower blood pressure. Aim for at least 150 minutes of moderate-intensity exercise weekly, such as brisk walking, cycling, or swimming.\n\n
+        4. Manage Stress: Chronic stress contributes to high blood pressure. Implement stress management techniques like deep breathing, meditation, or yoga into your daily routine.\n\n
+        5. Maintain a Healthy Weight: Being overweight or obese increases the risk of high blood pressure. Aim for a body mass index (BMI) between 18.5 and 24.9 to support optimal blood pressure levels.\n\n
+        6. Quit Smoking: Smoking damages blood vessels and elevates the risk of high blood pressure. Seek assistance from healthcare providers regarding smoking cessation programs or medications that can aid in quitting.\n\n
+        7. Limit Caffeine Intake: Caffeine can temporarily raise blood pressure, so it\'s essential to monitor your caffeine consumption. Try to stay below 400 milligrams of caffeine per day, roughly equivalent to four cups of coffee.\n\n
+        In conclusion, implementing lifestyle changes can be a highly effective way to naturally lower blood pressure and mitigate the risk of severe health problems. By adopting a healthy diet, moderating alcohol consumption, maintaining an active lifestyle, managing stress, achieving a healthy weight, quitting smoking, and monitoring caffeine intake, you can play an active role in reducing your blood pressure and enhancing your overall well-being.\n\n
+    </string>
+    <string name="article_title_3">Power Foods for Lowering Blood Pressure</string>
+    <string name="article_content_3">
+        High blood pressure, also known as hypertension, is a prevalent condition that can significantly heighten the risk of heart disease, stroke, kidney failure, and various other severe health complications.\n\n
+        While medications can effectively manage high blood pressure, dietary modifications can also play a crucial role in naturally reducing blood pressure. Here are some potent foods that can aid in lowering your blood pressure:\n\n
+        1. Fruits and Vegetables: Extensive research has demonstrated that fruits and vegetables are excellent choices for blood pressure management. Their rich potassium, magnesium, and fiber content contribute to this benefit. Consider incorporating bananas, berries, leafy greens, and sweet potatoes into your diet.\n\n
+        2. Nuts and Seeds: Nuts and seeds are laden with healthy fats, fiber, and essential minerals like potassium and magnesium, all of which are known to help lower blood pressure. Almonds, pistachios, and chia seeds are notable options.\n\n
+        3. Oily Fish: Varieties like salmon, mackerel, and sardines are brimming with omega-3 fatty acids, which not only aid in blood pressure reduction but also combat inflammation within the body.\n\n
+        4. Whole Grains: Embrace whole grains such as oats, quinoa, and brown rice, which are abundant in fiber. This dietary choice can help lower blood pressure and reduce the risk of heart disease.\n\n
+        5. Low-Fat Dairy Products: Low-fat dairy options like milk and yogurt provide a good source of calcium, a nutrient associated with blood pressure regulation.\n\n
+        6. Herbs and Spices: Incorporate herbs and spices like garlic, ginger, and turmeric, as they have demonstrated blood pressure-lowering effects.\n\n
+        7. Dark Chocolate: Indulge in dark chocolate, which contains flavanols that enhance blood flow and diminish inflammation, thus contributing to lower blood pressure.\n\n
+        In conclusion, adopting dietary changes can be a potent strategy for naturally reducing blood pressure and mitigating the risk of serious health complications. By integrating power foods such as fruits and vegetables, nuts and seeds, oily fish, whole grains, low-fat dairy products, herbs and spices, and dark chocolate into your diet, you can actively work towards lowering your blood pressure and enhancing your overall well-being.\n\n
+    </string>
+    <string name="article_title_4">Is Caffeine Good or Bad for Your Blood Pressure?</string>
+    <string name="article_content_4">Caffeine, a natural stimulant found in various beverages like coffee, tea, and energy drinks, is a widely consumed ingredient known to help people stay alert and focused.\n\n
+        However, the impact of caffeine on blood pressure remains a subject of debate among researchers and healthcare professionals. Here are some key points to consider:\n\n
+        The Good:\n\n
+        - Some studies suggest that regular coffee consumption may reduce the risk of chronic diseases such as cardiovascular disease, diabetes, Parkinson\'s disease, and certain cancers.\n\n
+        - Caffeine offers various health benefits, including enhanced cognitive function, increased metabolism, and a decreased risk of liver disease.\n\n
+        The Bad:\n\n
+        - Caffeine can lead to a short-term increase in blood pressure, even in individuals with normal blood pressure.\n\n
+        - Regular consumption of caffeinated beverages may result in higher average blood pressure compared to non-consumers.\n\n
+        - In some cases, caffeine can disrupt sleep and induce anxiety.\n\n
+        What to Keep in Mind:\n\n
+        - The caffeine content in beverages varies depending on the brand and preparation method.\n\n
+        - If you have high blood pressure, it\'s advisable to avoid caffeine before activities that naturally elevate blood pressure, such as exercise, weightlifting, or strenuous physical work.\n\n
+        - Scientific research on the association between coffee consumption and hypertension has produced mixed results, with some studies suggesting a link and others not.\n\n
+        In conclusion, the relationship between caffeine and blood pressure is intricate and not fully understood. While certain studies indicate potential health benefits, it\'s essential to recognize that caffeine can temporarily raise blood pressure and affect sleep and anxiety in some individuals. If you have high blood pressure, consult your healthcare provider to determine whether caffeine is safe for you, especially before engaging in activities that naturally elevate blood pressure.\n\n
+    </string>
+    <string name="new_record">New Record</string>
+    <string name="history_record">History Record</string>
+    <string name="error_tips_1">Please confirm that the systolic measurement is higher than the diastolic measurement.</string>
+    <string name="error_tips_2">Please note that the measurement time should precede the current time.</string>
+    <string name="read">Read</string>
+    <string name="recording_finished">Recording Finished</string>
+    <string name="alter">Alter</string>
+</resources>
