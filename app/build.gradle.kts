@@ -5,6 +5,14 @@ plugins {
     id("com.google.firebase.crashlytics")
     id("kotlin-parcelize")
     id("kotlin-kapt")
+    id("stringfog")
+}
+
+stringfog {
+    // 开关
+    enable = true
+    // 加解密库的实现类路径，需和上面配置的加解密算法库一致。
+    implementation = "com.github.megatronking.stringfog.xor.StringFogImpl"
 }
 
 android {
@@ -69,5 +77,6 @@ dependencies {
     //RecyclerViewAdapter
     implementation("io.github.cymchad:BaseRecyclerViewAdapterHelper:4.0.1")
 
+    implementation("com.github.megatronking.stringfog:xor:5.0.0")
 
 }
