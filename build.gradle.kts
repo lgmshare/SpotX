@@ -3,8 +3,6 @@ plugins {
     id ("com.android.application") version "8.0.2" apply false
     id ("com.android.library") version "8.0.2" apply false
     id ("org.jetbrains.kotlin.android") version "1.8.20" apply false
-    id ("com.google.gms.google-services") version "4.3.15" apply false
-    id ("com.google.firebase.crashlytics") version "2.9.5" apply false
 }
 
 buildscript {
@@ -12,5 +10,6 @@ buildscript {
         classpath("com.github.megatronking.stringfog:gradle-plugin:5.1.0")
         // 选用加解密算法库，默认实现了xor和aes-cbc两种简单算法，也可以使用自己的加解密库。
         classpath("com.github.megatronking.stringfog:xor:5.0.0")
+        classpath("com.github.qq549631030:android-junk-code:1.3.2")
     }
 }

@@ -10,11 +10,6 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ProcessLifecycleOwner
 import com.firstpoli.spotx.extensions.getCurrentProcessName
 import com.firstpoli.spotx.ui.SplashActivity
-import com.google.firebase.ktx.Firebase
-import com.google.firebase.ktx.initialize
-import com.google.firebase.remoteconfig.FirebaseRemoteConfig
-import com.google.firebase.remoteconfig.ktx.remoteConfig
-import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
 
 class App : Application(), LifecycleEventObserver {
 
@@ -63,14 +58,6 @@ class App : Application(), LifecycleEventObserver {
                     AppActivityManager.popActivity(p0)
                 }
             })
-
-            //初始化
-            Firebase.initialize(this)
-            val remoteConfig: FirebaseRemoteConfig = Firebase.remoteConfig
-            remoteConfig.setConfigSettingsAsync(remoteConfigSettings {
-                minimumFetchIntervalInSeconds = 3600
-            })
-            remoteConfig.fetchAndActivate()
         }
     }
 
